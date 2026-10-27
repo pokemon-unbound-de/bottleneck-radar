@@ -15,13 +15,20 @@ konkreten Empfehlungen.
 
 | Kennzahl | Wofür |
 |---|---|
-| Backlog & Aging | Wie alt sind offene Issues? (ältestes, Median, veraltet > 14 Tage) |
+| Backlog & Aging | Wie alt sind offene Issues? (ältestes, Median, Alters-Histogramm, veraltet > 14 Tage) |
 | Label-Verteilung | In welchen Kategorien staut sich Arbeit? |
 | PR-Gesundheit | Wie viele PRs warten? Wie lange? |
-| Bus-Faktor | Wie sehr hängt das Projekt an 1–2 Personen? |
+| PR-Zyklus | Wie lange dauert es von "öffnen" bis "gemergt"? |
+| Bus-Faktor | Wie sehr hängt das Projekt an 1–2 Personen? (Commit-Authoren, funktioniert auch ohne verlinkte Accounts) |
 | Release-Kadenz | Hängen Commits unveröffentlicht? |
 | Aktivität (8 Wochen) | Kommt das Projekt in Fahrt oder nicht? |
-| String-Queues (optional) | Wie viele Übersetzungs-/Content-Einträge warten in JSON-Dateien? |
+| String-Queues (optional) | Wie viele Übersetzungs-/Content-Einträge warten in JSON-Dateien? + Queue-Aging (Datum-Felder) + Verteilung nach Kategorien/Status (niedrige Kardinalität) |
+
+## Versionen
+
+- **v0.3** — **Bus-Faktor mit AI-Bewusstsein**: Commit-Autoren werden in 👤 Menschen und 🤖 AI-Agenten klassifiziert (Claude, Codex, Copilot, Zenflow, …). Gemessen wird der *Menschen-Bus-Faktor* (Wer hält das menschliche Wissen?) + der AI-Anteil. In AI-orchestrierten Projekten ist das der entscheidende Unterschied zu einem klassischen Bus-Faktor.
+- **v0.2** — Queue-Verteilungs-Scan, Queue-Aging, Bus-Faktor aus Commit-Authoren, PR-Zyklus-Zeit, Issue-Alters-Histogramm, Download-Fallback für Dateien > 1 MB
+- **v0.1** — Backlog, Labels, PRs, Bus-Faktor (verlinkte Accounts), Releases, Aktivität, Queue-Zählung
 
 ## Installation
 
