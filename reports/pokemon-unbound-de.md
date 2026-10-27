@@ -6,7 +6,7 @@
 
 | # | Schwere | Befund | Details | Empfehlung |
 |---|---------|--------|---------|------------|
-| 1 | 🔴 Menschen-Bus-Faktor 1 | Alle 33 menschlichen Commits stammen von Nevio Waldemar Niebel (AI-Anteil: 44%). | Die AI übernimmt Execution, aber menschliches Wissen und Entscheidungen hängen an einer Person. Zweite Person mit Write-Zugriff einbinden, Handoffs/Entscheidungen dokumentieren, AI-Workflows als Repo-Assets ablegen. |
+| 1 | 🔴 Menschen-Bus-Faktor 1 | Alle 33 menschlichen Commits stammen von NevioCore (AI-Anteil: 44%). | Die AI übernimmt Execution, aber menschliches Wissen und Entscheidungen hängen an einer Person. Zweite Person mit Write-Zugriff einbinden, Handoffs/Entscheidungen dokumentieren, AI-Workflows als Repo-Assets ablegen. |
 | 2 | 🟢 Starke AI-Orchestrierung | 44% der Commits stammen von AI-Agenten (Zenflow (24), Claude (2)). | Gute Basis: AI-Workflows (Prompts, Tools, Checks) als Repo-Assets systematisieren, damit die Orchestrierung wechselbar bleibt. |
 
 ## 📊 Backlog (offene Issues)
@@ -26,11 +26,11 @@ _Keine offenen PRs._
 
 | Author | Commits | Anteil | Typ |
 |--------|---------|--------|-----|
-| Nevio Waldemar Niebel | 33 | 56% | 👤 Mensch |
+| NevioCore | 33 | 56% | 👤 Mensch |
 | Zenflow | 24 | 41% | 🤖 AI |
 | Claude | 2 | 3% | 🤖 AI |
 
-**AI-Anteil:** 44% · **Menschen-Bus-Faktor:** Nevio Waldemar Niebel (100% der 33 menschlichen Commits)
+**AI-Anteil:** 44% · **Menschen-Bus-Faktor:** NevioCore (100% der 33 menschlichen Commits)
 
 _(Stichprobe: 59 Commits · verlinkte Accounts: @NevioCore, @claude)_
 
