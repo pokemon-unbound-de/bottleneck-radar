@@ -1,5 +1,7 @@
 # 📡 Bottleneck Radar
 
+> **English:** Data-driven bottleneck detection for GitHub projects: issues, pull requests, releases, bus factor. AI-orchestrated, human-decided.
+
 **Data-drivene Flaschenhals-Erkennung für GitHub-Projekte.**
 
 Bottleneck Radar misst ein GitHub-Repository und findet, wo Arbeit feststeckt:
